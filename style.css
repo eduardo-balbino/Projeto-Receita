@@ -112,38 +112,25 @@ table {
 
 th, td {
     border-bottom: 1px solid #e3ddd7;
-}
-
-tr {
-    display: flex;
+    padding-block: 12px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 150%;
 }
 
 th {
-    text-align: right;
+    text-align: left;
     padding-left: 32px;
     font-weight: 400;
     color: #5f564d;
-    line-height: 150%;
+    width: 50%;
 }
 
 td {
-    padding-left: 16px;    
     font-weight: 700;
     color: #854632;
-    line-height: 150%;
 }
 
-tr + tr th,
-tr + tr td {
-    padding-block: 12px;
-}
-
-tr:nth-of-type(1) th,
-tr:nth-of-type(1) td {
-    padding-bottom: 12px;
-}
-
-tr:nth-of-type(4) th, 
-tr:nth-of-type(4) td {
+tr:last-child th,
+tr:last-child td {
     border: none;
 }
